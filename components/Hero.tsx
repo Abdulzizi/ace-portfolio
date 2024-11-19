@@ -4,6 +4,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 import { FaLocationArrow } from "react-icons/fa";
+import { BackgroundBeams } from "./ui/BackgroundBeams";
 
 const Hero = () => {
   return (
@@ -51,6 +52,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
+      <BackgroundBeams />
     </div>
   );
 };
